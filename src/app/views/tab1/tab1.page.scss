@@ -3,6 +3,10 @@ ion-content {
   --padding-bottom: 0;
 }
 
-ion-content, app-mapa {
+app-mapa {
   height: 100%;
+}
+
+app-menu-flutuante {
+  padding-top: 30%;
 }

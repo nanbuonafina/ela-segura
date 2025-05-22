@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 import { MapaComponent } from 'src/app/components/mapa/mapa/mapa.component';
+import { MenuFlutuanteComponent } from 'src/app/components/menu-flutuante/menu-flutuante.component'
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 
@@ -15,7 +16,8 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     FormsModule,
     ExploreContainerComponentModule,
     Tab1PageRoutingModule,
-    MapaComponent
+    MapaComponent,
+    MenuFlutuanteComponent
   ],
   declarations: [Tab1Page]
 })

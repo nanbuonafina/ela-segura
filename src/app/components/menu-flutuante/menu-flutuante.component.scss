@@ -1,0 +1,34 @@
+ion-fab {
+  padding-top: 58px;
+  padding-left: 32px;
+}
+
+.menu-card {
+  position: fixed;
+  top: 120px;
+  left: 16px;
+  z-index: 999;
+  width: 260px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+ion-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.close-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+ion-item {
+  --padding-start: 12px;
+}
+
+ion-icon {
+  font-size: 20px;
+}
